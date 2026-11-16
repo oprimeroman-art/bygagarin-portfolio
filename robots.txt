@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://oprimeroman-art.github.io/bygagarin-portfolio/sitemap.xml
