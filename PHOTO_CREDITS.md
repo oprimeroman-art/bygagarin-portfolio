@@ -15,3 +15,10 @@
 ## Изображения проектов
 - Файлы showcase-all-indie, showcase-posle, showcase-menyala, showcase-hlop — обложки с авторского сайта https://all-indi.ru/
 - Файл showcase-sng-games — снимок публичного сайта https://snggames.ru/.
+
+## Портрет автора
+- Роман Гагарин; фотография предоставлена автором.
+- WebP для сайта; JPEG того же изображения — для предпросмотров ссылок.
+
+## Локальные шрифты
+- Onest и Cormorant Garamond, Google Fonts; лицензии SIL Open Font License сохранены в `assets/fonts/`.

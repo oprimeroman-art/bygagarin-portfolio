@@ -1,0 +1,28 @@
+{
+  "renderer": "llvmpipe (LLVM 19.1.7, 256 bits)",
+  "version": "OpenGL ES 3.2 Mesa 25.0.7-2+deb13u1",
+  "resolution": [
+    720,
+    600
+  ],
+  "modes": [
+    {
+      "mode": 0,
+      "opaque_pixels": 99333,
+      "transparent_pixels": 332667,
+      "render_ms_software": 548.5
+    },
+    {
+      "mode": 1,
+      "opaque_pixels": 106443,
+      "transparent_pixels": 325557,
+      "render_ms_software": 55.0
+    },
+    {
+      "mode": 2,
+      "opaque_pixels": 111885,
+      "transparent_pixels": 320115,
+      "render_ms_software": 47.5
+    }
+  ]
+}

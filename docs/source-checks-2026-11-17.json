@@ -1,0 +1,535 @@
+[
+  {
+    "url": "https://all-indi.ru/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/",
+    "title": "Бесплатные браузерные игры и утилиты — All Indie by Gagarin"
+  },
+  {
+    "url": "https://all-indi.ru/1day/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/1day/",
+    "title": "Один обычный день — интерактивная история | by Gagarin"
+  },
+  {
+    "url": "https://all-indi.ru/Atlas-zero/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/Atlas-zero/",
+    "title": "Атлас Нуля — пошаговая стратегия редактора | by Gagarin"
+  },
+  {
+    "url": "https://all-indi.ru/OJ/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/OJ/",
+    "title": "Дурак с О. Ж. Грантом — карточная игра | by Gagarin"
+  },
+  {
+    "url": "https://all-indi.ru/PanoramaStudio/index.html",
+    "status": 200,
+    "final_url": "https://all-indi.ru/PanoramaStudio/index.html",
+    "title": "Gagarin Panorama Studio — бесплатный редактор панорам 360°"
+  },
+  {
+    "url": "https://all-indi.ru/about/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/about/",
+    "title": "Об авторе Gagarin | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/b-movie/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/b-movie/",
+    "title": "Шутер категории Б"
+  },
+  {
+    "url": "https://all-indi.ru/dark/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/dark/",
+    "title": "Белая Тишина — выживание в зимней долине | by Gagarin"
+  },
+  {
+    "url": "https://all-indi.ru/delete-everyone/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/delete-everyone/",
+    "title": "Удалить у всех"
+  },
+  {
+    "url": "https://all-indi.ru/final-clearance/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/final-clearance/",
+    "title": "Последний пропуск — Final Clearance"
+  },
+  {
+    "url": "https://all-indi.ru/light-catch/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/light-catch/",
+    "title": "Световой улов"
+  },
+  {
+    "url": "https://all-indi.ru/materia/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/materia/",
+    "title": "МАТЕРИЯ — generative study 001"
+  },
+  {
+    "url": "https://all-indi.ru/matrix-cycle/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/matrix-cycle/",
+    "title": "Оператор Матрицы // Операторский цикл"
+  },
+  {
+    "url": "https://all-indi.ru/menyala/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/menyala/",
+    "title": "МЕНЯЛА.exe"
+  },
+  {
+    "url": "https://all-indi.ru/perekup-v23/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/perekup-v23/",
+    "title": "Перекуп.exe — симулятор автомобильного перекупа"
+  },
+  {
+    "url": "https://all-indi.ru/projects/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/",
+    "title": "Проекты by Gagarin | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/1day/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/1day/",
+    "title": "Один обычный день — Интерактивная история | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/atlas-zero/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/atlas-zero/",
+    "title": "Атлас Нуля — Пошаговая стратегия | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/b-movie/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/b-movie/",
+    "title": "B-Movie Shooter — шутер с видом сверху | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/dark/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/dark/",
+    "title": "Белая Тишина — Выживание · ПК | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/delete-everyone/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/delete-everyone/",
+    "title": "Удалить у всех — психологический хоррор в чате | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/dvigat-indie/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/dvigat-indie/",
+    "title": "Двигать инди — книга Романа Гагарина в EPUB | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/final-clearance/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/final-clearance/",
+    "title": "Последний пропуск — игра о проверке документов | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/light-catch/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/light-catch/",
+    "title": "Световой улов — аркадная игра в браузере | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/materia/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/materia/",
+    "title": "Материя — интерактивная генеративная графика | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/matrix/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/matrix/",
+    "title": "Оператор Матрицы — Нарративный эксперимент | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/menyala/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/menyala/",
+    "title": "МЕНЯЛА.exe — браузерная игра об обменах | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/oj/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/oj/",
+    "title": "Дурак с О. Ж. Грантом — Карточная игра | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/perekup/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/perekup/",
+    "title": "Перекуп.exe — Экономический симулятор | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/posle/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/posle/",
+    "title": "ПОСЛЕ — текстовый хоррор в лифте | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/projects/site-exe/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/projects/site-exe/",
+    "title": "SITE.exe — браузерный кликер о создании сайта | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/site-exe/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/site-exe/",
+    "title": "SITE.exe"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/antiboosty/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/antiboosty/",
+    "title": "antiBoosty — ограничение времени на Boosty | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/antidtf/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/antidtf/",
+    "title": "antiDTF — ограничение времени на DTF | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/antireddit/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/antireddit/",
+    "title": "antiReddit — ограничение времени на Reddit | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/antitelegram/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/antitelegram/",
+    "title": "antiTelegram — ограничение времени на Telegram Web | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/antivc/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/antivc/",
+    "title": "antiVC — ограничение времени на VC.ru | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/antiyoutube/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/antiyoutube/",
+    "title": "antiYouTube — ограничение времени на YouTube | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/flash-drive-sorter/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/flash-drive-sorter/",
+    "title": "Flash Drive Sorter — сортировка файлов на флешке | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/folder-cleaner/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/folder-cleaner/",
+    "title": "Folder Cleaner — очистка временных файлов Windows | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/gagarin-audio-converter/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/gagarin-audio-converter/",
+    "title": "Gagarin Audio Converter — конвертер аудио для Windows | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/gagarin-document-converter/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/gagarin-document-converter/",
+    "title": "Gagarin Document Converter — конвертер документов в PDF | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/gagarin-image-converter/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/gagarin-image-converter/",
+    "title": "Gagarin Image Converter — конвертер изображений Windows | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/gagarin-image-to-pdf/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/gagarin-image-to-pdf/",
+    "title": "Gagarin Image to PDF — изображения в PDF для Windows | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/gagarin-tasks/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/gagarin-tasks/",
+    "title": "Gagarin Tasks — список задач для Windows | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/hlop/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/hlop/",
+    "title": "hlop — конвертер файлов и OCR для Windows | All Indie"
+  },
+  {
+    "url": "https://all-indi.ru/utilities/startup-cleaner/",
+    "status": 200,
+    "final_url": "https://all-indi.ru/utilities/startup-cleaner/",
+    "title": "Startup Cleaner — очистка автозагрузки Windows | All Indie"
+  },
+  {
+    "url": "https://books.yandex.ru/books/BtA5tUgJ",
+    "status": 200,
+    "final_url": "https://books.yandex.ru/books/BtA5tUgJ",
+    "title": "Маркетинг для бедных. Просто, дешево, понятно Роман Гагарин — читать книгу онлайн на Яндекс Книгах"
+  },
+  {
+    "url": "https://books.yandex.ru/books/VbYEnMQC",
+    "status": 200,
+    "final_url": "https://books.yandex.ru/books/VbYEnMQC",
+    "title": "Реклама за копейки. 30 проверенных способов Роман Гагарин — читать книгу онлайн и скачать в приложении Яндекс Книги"
+  },
+  {
+    "url": "https://books.yandex.ru/books/bIHPGqQg",
+    "status": 200,
+    "final_url": "https://books.yandex.ru/books/bIHPGqQg",
+    "title": "Двигать инди Роман Гагарин — читать книгу онлайн и скачать в приложении Яндекс Книги"
+  },
+  {
+    "url": "https://boosty.to/bygagarin",
+    "status": 200,
+    "final_url": "https://boosty.to/bygagarin",
+    "title": "ByGagarin - exclusive content on Boosty"
+  },
+  {
+    "url": "https://coremission.net/novosti/kickstarter-kampaniya-the-emperors-own-startovala/",
+    "status": 200,
+    "final_url": "https://coremission.net/novosti/kickstarter-kampaniya-the-emperors-own-startovala/",
+    "title": "На Kickstarter стартовала кампания по сбору средств на The Emperor's Own – CoreMission"
+  },
+  {
+    "url": "https://dev.to/bygagarin/hello-dev-im-building-indie-games-and-the-tools-behind-them-4kb0",
+    "status": 200,
+    "final_url": "https://dev.to/bygagarin/hello-dev-im-building-indie-games-and-the-tools-behind-them-4kb0",
+    "title": "Hello DEV! I'm building indie games and the tools behind them - DEV Community Navigation menu Search Search Close More... Copy link Hot"
+  },
+  {
+    "url": "https://dtf.ru/indie/102444-kraudfanding-dlya-indi-v-rossii-pochemu-on-ne-rabotaet",
+    "status": 200,
+    "final_url": "https://dtf.ru/indie/102444-kraudfanding-dlya-indi-v-rossii-pochemu-on-ne-rabotaet",
+    "title": "Краудфандинг для инди в России. Почему он не работает? — Инди на DTF"
+  },
+  {
+    "url": "https://dtf.ru/indie/249135-otryad-ego-velichestva-stal-besplatno-dostupen-v-steam",
+    "status": 200,
+    "final_url": "https://dtf.ru/indie/249135-otryad-ego-velichestva-stal-besplatno-dostupen-v-steam",
+    "title": "Отряд Его Величества стал бесплатно доступен в Steam — Инди на DTF"
+  },
+  {
+    "url": "https://dtf.ru/indie/278948-gid-po-marketingu-s-nulevym-byudzhetom",
+    "status": 200,
+    "final_url": "https://dtf.ru/indie/278948-gid-po-marketingu-s-nulevym-byudzhetom",
+    "title": "Гид по маркетингу с нулевым бюджетом? — Инди на DTF"
+  },
+  {
+    "url": "https://dtf.ru/indie/3492128-koroche-gospoda-damy-ves-byurokraticheskii-ad-proiden",
+    "status": 200,
+    "final_url": "https://dtf.ru/indie/3492128-koroche-gospoda-damy-ves-byurokraticheskii-ad-proiden",
+    "title": "Короче, господа дамы - весь бюрократический ад пройден — Инди на DTF"
+  },
+  {
+    "url": "https://dtf.ru/indie/5372554-sozdanie-igr-s-gagarin-panorama-studio",
+    "status": 200,
+    "final_url": "https://dtf.ru/indie/5372554-sozdanie-igr-s-gagarin-panorama-studio",
+    "title": "Удобную штучку для HTML5\\JS проектов сделаль — Инди на DTF"
+  },
+  {
+    "url": "https://dzen.ru/snggames",
+    "status": 200,
+    "final_url": "https://sso.passport.yandex.ru/push?uuid=90ba1ae8-2092-4b18-95e5-f278c09476d5&retpath=https%3A%2F%2Fdzen.ru%2Fsnggames%3Fis_autologin_ya%3Dtrue",
+    "title": ""
+  },
+  {
+    "url": "https://github.com/oprimeroman-art",
+    "status": 200,
+    "final_url": "https://github.com/oprimeroman-art",
+    "title": "oprimeroman-art · GitHub"
+  },
+  {
+    "url": "https://github.com/oprimeroman-art/Tihaya-Voda",
+    "status": 200,
+    "final_url": "https://github.com/oprimeroman-art/Tihaya-Voda",
+    "title": "GitHub - oprimeroman-art/Tihaya-Voda: Протокол «Тихая вода» — исходники игры, Panorama Studio и сценарные материалы · GitHub"
+  },
+  {
+    "url": "https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/README.md",
+    "status": 200,
+    "final_url": "https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/README.md"
+  },
+  {
+    "url": "https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/codex-scripts/panorama_forge_engine.py",
+    "status": 200,
+    "final_url": "https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/codex-scripts/panorama_forge_engine.py",
+    "title": "Tihaya-Voda/codex-scripts/panorama_forge_engine.py at main · oprimeroman-art/Tihaya-Voda · GitHub"
+  },
+  {
+    "url": "https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/docs/features/PANORAMA_DETAIL_TILES.md",
+    "status": 200,
+    "final_url": "https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/docs/features/PANORAMA_DETAIL_TILES.md",
+    "title": "Tihaya-Voda/docs/features/PANORAMA_DETAIL_TILES.md at main · oprimeroman-art/Tihaya-Voda · GitHub"
+  },
+  {
+    "url": "https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/studio/README_RU_EN.txt",
+    "status": 200,
+    "final_url": "https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/studio/README_RU_EN.txt"
+  },
+  {
+    "url": "https://github.com/oprimeroman-art/digital-assets-platform-initiative",
+    "status": 200,
+    "final_url": "https://github.com/oprimeroman-art/digital-assets-platform-initiative",
+    "title": "GitHub - oprimeroman-art/digital-assets-platform-initiative: Публичная аналитическая презентация: инфраструктура торговли цифровыми продуктами в России (источники, пилот, риски) · GitHub"
+  },
+  {
+    "url": "https://github.com/oprimeroman-art/digital-assets-platform-initiative/blob/main/README.md",
+    "status": 200,
+    "final_url": "https://github.com/oprimeroman-art/digital-assets-platform-initiative/blob/main/README.md"
+  },
+  {
+    "url": "https://github.com/oprimeroman-art/vidosik-status/blob/main/README.md",
+    "status": 200,
+    "final_url": "https://github.com/oprimeroman-art/vidosik-status/blob/main/README.md"
+  },
+  {
+    "url": "https://kwork.ru/user/gagarin64",
+    "status": 200,
+    "final_url": "https://kwork.ru/user/gagarin64",
+    "title": "Фрилансер Роман Гагарин (Gagarin64) PR-директор,веб-разработчик,директолог,маркетолог. - Kwork"
+  },
+  {
+    "url": "https://mybook.ru/author/roman-gagarin/dvigatindi/read/",
+    "status": 200,
+    "final_url": "https://mybook.ru/author/roman-gagarin/dvigatindi/read/",
+    "title": "Читать книгу «Двигать инди» онлайн полностью📖 — Романа Гагарина — MyBook."
+  },
+  {
+    "url": "https://oprimeroman-art.github.io/Tihaya-Voda/",
+    "status": 200,
+    "final_url": "https://oprimeroman-art.github.io/Tihaya-Voda/",
+    "title": "Протокол «Тихая вода»"
+  },
+  {
+    "url": "https://oprimeroman-art.github.io/digital-assets-platform-initiative/",
+    "status": 200,
+    "final_url": "https://oprimeroman-art.github.io/digital-assets-platform-initiative/",
+    "title": "Национальная платформа цифровых продуктов России"
+  },
+  {
+    "url": "https://oprimeroman-art.github.io/vidosik-status/",
+    "status": 200,
+    "final_url": "https://oprimeroman-art.github.io/vidosik-status/",
+    "title": "ВИДОСИК — публичная панель"
+  },
+  {
+    "url": "https://planeta.ru/campaigns/operator911",
+    "status": 307,
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
+  },
+  {
+    "url": "https://ridero.ru/books/dvigat_indi/",
+    "status": 503,
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "url": "https://ridero.ru/books/marketing_dlya_bednykh/",
+    "status": 200,
+    "final_url": "https://ridero.ru/books/marketing_dlya_bednykh/",
+    "title": "Маркетинг для бедных. Просто, дешево, понятно печатная, электронная: epub, fb2, pdfRead, mobi - купить книгу в интернет магазине, автор Роман Гагарин - Ridero - 978-5-4493-0656-2"
+  },
+  {
+    "url": "https://ridero.ru/books/reklama_za_kopeiki/",
+    "status": 503,
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "url": "https://rozetked.me/news/13841-rossiyskiy-ved-mak-the-emperor-s-own-vyshel-na-kickstarter",
+    "status": 200,
+    "final_url": "https://rozetked.me/news/13841-rossiyskiy-ved-mak-the-emperor-s-own-vyshel-na-kickstarter",
+    "title": "«Российский Ведьмак» The Emperor's Own вышел на Kickstarter - Rozetked.me"
+  },
+  {
+    "url": "https://sar.specfinder.ru/profile/GagarinRO2/",
+    "status": 200,
+    "final_url": "https://sar.specfinder.ru/profile/GagarinRO2/",
+    "title": "Роман Олегович Наберушкин - Фрилансер в Саратове"
+  },
+  {
+    "url": "https://snggames.ru/",
+    "status": 200,
+    "final_url": "https://snggames.ru/",
+    "title": "SNG Games"
+  },
+  {
+    "url": "https://soundstream.media/clip/v-gostyakh-roman-naberushkin",
+    "status": 200,
+    "final_url": "https://soundstream.media/clip/v-gostyakh-roman-naberushkin",
+    "title": "Ð Ð³Ð¾ÑÑÑÑ Ð Ð¾Ð¼Ð°Ð½ ÐÐ°Ð±ÐµÑÑÑÐºÐ¸Ð½ - ÑÐ»ÑÑÐ°ÑÑ Ð¿Ð¾Ð´ÐºÐ°ÑÑ Arrow Left Arrow Right"
+  },
+  {
+    "url": "https://store.steampowered.com/app/1364800/",
+    "status": 200,
+    "final_url": "https://store.steampowered.com/app/1364800/",
+    "title": "The Emperor's Own: Alpha Teaser on Steam"
+  },
+  {
+    "url": "https://t.me/indiesng",
+    "status": 200,
+    "final_url": "https://t.me/indiesng",
+    "title": "Site Unavailable"
+  },
+  {
+    "url": "https://twinfinite.net/news/open-world-rpg-the-emperors-own-looks-promising-in-first-footage-free-alpha-demo-available-now/",
+    "status": 200,
+    "final_url": "https://twinfinite.net/news/open-world-rpg-the-emperors-own-looks-promising-in-first-footage-free-alpha-demo-available-now/",
+    "title": "Open-World RPG The Emperor's Own Looks Promising in First Footage; Free Alpha Demo Available Now - Twinfinite"
+  },
+  {
+    "url": "https://vc.ru/marketing/185643-pro-blogerov-inflyuenserov-zhurnalistov-dlya-indi-igr",
+    "status": 200,
+    "final_url": "https://vc.ru/marketing/185643-pro-blogerov-inflyuenserov-zhurnalistov-dlya-indi-igr",
+    "title": "Про блогеров, инфлюенсеров, журналистов для инди игр — Маркетинг на vc.ru"
+  },
+  {
+    "url": "https://vk.ru/blog_gagarin",
+    "status": 200,
+    "final_url": "https://vk.ru/blog_gagarin",
+    "title": "Site Unavailable"
+  },
+  {
+    "url": "https://www.dsogaming.com/news/the-emperors-own-alpha-teaser-is-now-available-for-free-on-steam/",
+    "status": 200,
+    "final_url": "https://www.dsogaming.com/news/the-emperors-own-alpha-teaser-is-now-available-for-free-on-steam/",
+    "title": "The Emperor's Own: Alpha Teaser is now available for free on Steam"
+  },
+  {
+    "url": "https://www.kickstarter.com/projects/548689230/the-emperors-own/",
+    "status": 200,
+    "final_url": "https://www.kickstarter.com/projects/548689230/the-emperors-own/",
+    "title": "\nThe Emperor's Own (Canceled) by Volga Studios » The Emperor's Own (Canceled) by Volga Studios — Kickstarter\n Kickstarter Line icon alert icon Artboard Copy 8 arrow-down icon arrow-down arrow-left ico"
+  },
+  {
+    "url": "https://www.kicktraq.com/projects/548689230/the-emperors-own/",
+    "status": 200,
+    "final_url": "https://www.kicktraq.com/projects/548689230/the-emperors-own/",
+    "title": "The Emperor's Own by Volga Studios :: Kicktraq"
+  },
+  {
+    "url": "https://www.youtube.com/channel/UC8wpxEajDVoAmWimJINuqsw",
+    "status": 200,
+    "final_url": "https://www.youtube.com/channel/UC8wpxEajDVoAmWimJINuqsw",
+    "title": "Gagarin-Indie-music - YouTube"
+  }
+]

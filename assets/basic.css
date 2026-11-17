@@ -1,0 +1,20 @@
+/* The complete document stays usable without JavaScript, Grid, WebGL or web fonts. */
+html { background:#f2f3f0; color:#172320; }
+body { margin:24px auto; padding:0 20px; max-width:1100px; font:16px/1.65 Arial,sans-serif; }
+a { color:#17654b; text-decoration:underline; }
+img { max-width:100%; height:auto; border:0; }
+button,input,textarea,select { font:inherit; }
+button { cursor:pointer; }
+[hidden] { display:none !important; }
+h1,h2,h3 { line-height:1.15; }
+nav a,.inner-subnav a,.links a,.source-links a { display:inline-block; margin:4px 16px 4px 0; }
+section,.panel,.card { margin-bottom:28px; }
+.grain,.route-curtain,.cursor-label,.constellation,.liquid-canvas,.liquid-fallback,.scene-halo,.dock-mark,.dock-num,.mast-middle,.mast-actions,.mobile-nav,.cover-scene,.directory-preview,.featured-select,.index-filters,.brief,.command { display:none; }
+.dock-nav a { margin-right:18px; }
+.dock-logo,.mast-brand { font-weight:bold; }
+.skip-link { display:block; }
+.site-foot { border-top:1px solid #a5b5a9; margin-top:40px; padding-top:24px; }
+.foot-linkcols a { margin-right:20px; }
+.portfolio-card,.tool-entry,.solution-row { border-top:1px solid #bac9be; padding-top:20px; }
+.static-nav { padding:16px 0; }
+li { margin-bottom:5px; }
