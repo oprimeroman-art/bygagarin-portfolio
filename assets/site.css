@@ -218,3 +218,5 @@ body{background:var(--sng-canvas)}
 @supports(display:grid){.inner-head{background:#edf4ef}.inner-head:before{color:#17654b;opacity:.045}.inner-body .card,.portfolio-card{background:#f7f8f5}.inner-body .alert{background:#e3ece6}.inner-body .note{color:#66746d}.motion-reduced .scene-plate{transition:none!important}.foot-bottom span:nth-last-child(2){color:#82978a}}
 @supports(display:grid){.enhanced .basic-contact{display:none}html:not(.enhanced) [data-command-open]{display:none}}
 @supports(display:grid){.enhanced .calculator-note{display:none}html:not(.enhanced) .calc-grid,html:not(.enhanced) .metrics{display:none}.portfolio-card .portfolio-visual:focus-visible{outline-offset:-6px}}
+/* The headline is readable on the first frame; its dot remains interactive. */
+@supports(display:grid){.cover-title .title-line>span{transform:none;animation:none}}
