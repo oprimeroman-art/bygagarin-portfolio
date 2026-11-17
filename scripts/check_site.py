@@ -29,7 +29,7 @@ class Page(HTMLParser):
  def handle_data(self,d):
   if self.in_title:self.title+=d
   if self.in_ld:self.ld.append(d)
-files=[p for p in ROOT.rglob('*.html') if not set(p.relative_to(ROOT).parts).intersection({'dist','.git','.openai'}) and p.name!='qa.html']
+files=[p for p in ROOT.rglob('*.html') if not set(p.relative_to(ROOT).parts).intersection({'dist','versions','.git','.openai'}) and p.name!='qa.html']
 pages={p:Page(p.read_text()) for p in files};errors=[];refs=0;anchors=0;titles=[];descriptions=[]
 for path,page in pages.items():
  rel=path.relative_to(ROOT);url=BASE+str(rel).replace('index.html','')
