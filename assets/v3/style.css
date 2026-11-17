@@ -50,3 +50,15 @@ body.v3-site:not(.v3-home) .contact-panel p{color:var(--v3-muted)}
 body.v3-site:not(.v3-home) .contact-actions a{background:#fff;color:var(--v3-green);border:1px solid #bcd4c0;border-radius:6px}
 body.v3-site:not(.v3-home) .contact-actions a:first-child{background:var(--v3-green);color:#fff;border-color:var(--v3-green)}
 @media(max-width:780px){body.v3-site:not(.v3-home) .site-hero{min-height:0}body.v3-site:not(.v3-home) .site-hero .hero-inner{width:calc(100% - 34px);grid-template-columns:1fr;gap:28px;padding:67px 0 85px}body.v3-site:not(.v3-home) .site-hero h1{font-size:clamp(59px,12vw,86px)}body.v3-site:not(.v3-home) .site-hero .hero-aside{max-width:100%}}
+
+/* Permanent replacement for the old photo-led services hero. */
+.v3-services-hero{background:linear-gradient(115deg,#f9faf6 0%,#edf4ed 100%);border-bottom:1px solid var(--v3-line)}
+.v3-services-hero-inner{padding:110px 0 115px;display:grid;grid-template-columns:1.45fr .55fr;gap:clamp(50px,8vw,130px);align-items:end}
+.v3-services-hero h1{font:300 clamp(64px,7.8vw,116px)/.97 var(--v3-serif);letter-spacing:-.074em;margin:27px 0 30px;color:#20362a}
+.v3-services-hero h1 em{font-style:italic;color:#497f57}
+.v3-services-hero p{max-width:610px;font-size:16px;color:#617464;line-height:1.8}
+.v3-services-aside{padding:30px;background:white;border:1px solid #dfe9df;border-radius:12px;box-shadow:0 18px 35px #345b3710}
+.v3-services-aside span{font:700 10px var(--v3-sans);color:#719575;letter-spacing:.13em}
+.v3-services-aside h3{font:300 48px/1.1 var(--v3-serif);margin:21px 0;color:#264831}
+.v3-services-aside p{font-size:12px;color:#748477;line-height:1.75}
+@media(max-width:780px){.v3-services-hero-inner{grid-template-columns:1fr;padding:70px 0;gap:35px}.v3-services-hero h1{font-size:clamp(58px,12vw,86px)}.v3-services-aside{max-width:480px}.v3-services-aside h3{font-size:40px}}
