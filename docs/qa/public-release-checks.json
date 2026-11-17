@@ -1,0 +1,453 @@
+{
+  "source_commit": "591da59bbed3b3b98edb98048fca8e3fc0918615",
+  "files": [
+    {
+      "path": "index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/",
+      "status": 200,
+      "bytes": 24201,
+      "matches_commit": true,
+      "sha256": "d19c9f89f9264fc7ef07f383fdba06fc52bae5678ce004aa83880276f9819176"
+    },
+    {
+      "path": "404.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/404.html",
+      "status": 200,
+      "bytes": 8852,
+      "matches_commit": true,
+      "sha256": "c26c16a4c3364fcf5bdfadbaa3efd242a8cd61c937746c031f98b010c754226b"
+    },
+    {
+      "path": "about/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/about/",
+      "status": 200,
+      "bytes": 626,
+      "matches_commit": true,
+      "sha256": "6b1a61a0aebf41d363397f1e2a0d8932df92c0ef77b524d0b799dba5c37eebd7"
+    },
+    {
+      "path": "plain/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/plain/",
+      "status": 200,
+      "bytes": 95896,
+      "matches_commit": true,
+      "sha256": "5b27b39d048dede65b50bef7716761f5d6fd417be7b3145a62b5fbfd4db89f70"
+    },
+    {
+      "path": "prototype/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/prototype/",
+      "status": 200,
+      "bytes": 450,
+      "matches_commit": true,
+      "sha256": "ef36c9708da00bd19f53b25e6331ebbb9ff1a5ffc5e4f112c40ac131956c070d"
+    },
+    {
+      "path": "projects/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/",
+      "status": 200,
+      "bytes": 22789,
+      "matches_commit": true,
+      "sha256": "2b0c7b434cb05d7f38709606d7b2c9e5fce504d19aad393dbd27901623916cf3"
+    },
+    {
+      "path": "experience/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/experience/",
+      "status": 200,
+      "bytes": 18522,
+      "matches_commit": true,
+      "sha256": "57e11ab3e6e036928cda1db6f191990d79e46104812563d02388f6f0e92e3524"
+    },
+    {
+      "path": "services/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/services/",
+      "status": 200,
+      "bytes": 17966,
+      "matches_commit": true,
+      "sha256": "02eb170dd217e8ead11ef303a918994acba0bd6d909bead46787041b61bd6d81"
+    },
+    {
+      "path": "books/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/books/",
+      "status": 200,
+      "bytes": 11350,
+      "matches_commit": true,
+      "sha256": "9fe4f49ea3e5f702749e385105f62f03049b437c7c8b09862ce070dc934fc5c1"
+    },
+    {
+      "path": "tools/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/tools/",
+      "status": 200,
+      "bytes": 17368,
+      "matches_commit": true,
+      "sha256": "bb9cc775cec36cbf0c2554269c27c87b8e7f755148ca6ae86f2ef962520a6e10"
+    },
+    {
+      "path": "archive/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/archive/",
+      "status": 200,
+      "bytes": 14433,
+      "matches_commit": true,
+      "sha256": "4f65c9775e62542fc6f5d08a9056291924629c3fb8cebbf2320c3e292228b9a8"
+    },
+    {
+      "path": "publications/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/publications/",
+      "status": 200,
+      "bytes": 14844,
+      "matches_commit": true,
+      "sha256": "b2a7db97569e89cae9aa434eada31a1a6e67e3e5f722eaab0897b3f6395f9a9e"
+    },
+    {
+      "path": "projects/panorama-forge/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/panorama-forge/",
+      "status": 200,
+      "bytes": 12086,
+      "matches_commit": true,
+      "sha256": "163306b5a7417d82b2c34d884a9186c4025867b6d766526798fea093f9758472"
+    },
+    {
+      "path": "projects/panorama-studio/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/panorama-studio/",
+      "status": 200,
+      "bytes": 11516,
+      "matches_commit": true,
+      "sha256": "f75c3cfa4d9392341f97c388721f7cbde312b06bb62094a1816800ddb0592021"
+    },
+    {
+      "path": "projects/emperors-own/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/emperors-own/",
+      "status": 200,
+      "bytes": 15356,
+      "matches_commit": true,
+      "sha256": "15853c33477e51b2f0f57a7a324b082a84cdb87dcf0a17098badc37702b5f8a8"
+    },
+    {
+      "path": "projects/posle/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/posle/",
+      "status": 200,
+      "bytes": 11016,
+      "matches_commit": true,
+      "sha256": "ce1e0fc8cbe5485715ebaefc977b38a276dfbccca805ed7d4755dcfd28cfe652"
+    },
+    {
+      "path": "projects/menyala/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/menyala/",
+      "status": 200,
+      "bytes": 10644,
+      "matches_commit": true,
+      "sha256": "b795a847a786677ab8c522ccd575d239c2ea6ddf7ce8be7c7ca7421bb94a7f9d"
+    },
+    {
+      "path": "projects/tihaya-voda/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/tihaya-voda/",
+      "status": 200,
+      "bytes": 11242,
+      "matches_commit": true,
+      "sha256": "1e595ab2dd9053358ef1f59811e74b4079fd0d48ccfbe43beede3a791c21c2c5"
+    },
+    {
+      "path": "projects/sng-games/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/sng-games/",
+      "status": 200,
+      "bytes": 10919,
+      "matches_commit": true,
+      "sha256": "57ef59f8c5cbd5d0c2558d8827c83be28f4457e265bc033842e2a09e1e6920da"
+    },
+    {
+      "path": "projects/operator-911/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/operator-911/",
+      "status": 200,
+      "bytes": 11851,
+      "matches_commit": true,
+      "sha256": "6f9d26a477cf05c5f6cd5f29f57358fb07cb0333d6fc00462dcd487b8f04f9f6"
+    },
+    {
+      "path": "projects/hlop/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/hlop/",
+      "status": 200,
+      "bytes": 10194,
+      "matches_commit": true,
+      "sha256": "2969b7200faf6cb587b7011e6267710e1a5902297135bb07a3fd688e2bc369e1"
+    },
+    {
+      "path": "projects/all-indie/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/all-indie/",
+      "status": 200,
+      "bytes": 11188,
+      "matches_commit": true,
+      "sha256": "708ac672fa486f91ba0550e141ad235220eae58e7f82da894b5e2fcd55099654"
+    },
+    {
+      "path": "projects/utilities/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/utilities/",
+      "status": 200,
+      "bytes": 15510,
+      "matches_commit": true,
+      "sha256": "c761c0827924e1a61beff8a25a55b64b2308850332d80fca342455d04ea6fac9"
+    },
+    {
+      "path": "projects/materia/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/materia/",
+      "status": 200,
+      "bytes": 14403,
+      "matches_commit": true,
+      "sha256": "29255f34c5d873ffb31ada86f0690756340895188a7243c4a13f4eb99cc87b41"
+    },
+    {
+      "path": "projects/vidosik/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/vidosik/",
+      "status": 200,
+      "bytes": 10997,
+      "matches_commit": true,
+      "sha256": "2ba3bac702ce0e0e984185e122f256a2c8eca0117259c9aabedec63a75ea3eda"
+    },
+    {
+      "path": "projects/browser-games/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/browser-games/",
+      "status": 200,
+      "bytes": 17995,
+      "matches_commit": true,
+      "sha256": "59d9cb9c7e049a3b3113d46d43110e2463325cfa3edde2378af0026fe51e0cc2"
+    },
+    {
+      "path": "projects/digital-platform-initiative/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/projects/digital-platform-initiative/",
+      "status": 200,
+      "bytes": 11543,
+      "matches_commit": true,
+      "sha256": "35d7e0ad02d31256764ddd3b1cf3323d1344696aecb98e7c4e4cff83832d800c"
+    },
+    {
+      "path": "books/dvigat-indi/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/books/dvigat-indi/",
+      "status": 200,
+      "bytes": 11691,
+      "matches_commit": true,
+      "sha256": "f7f13b952eb1adc790fde3564f7f450d7b0a12854502139df7338c0a7a21aa18"
+    },
+    {
+      "path": "books/reklama-za-kopeiki/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/books/reklama-za-kopeiki/",
+      "status": 200,
+      "bytes": 11155,
+      "matches_commit": true,
+      "sha256": "98860ed8e2c35e026b79969e5d04f4b14e685c570a7ec94c760b449ba2f7c1f3"
+    },
+    {
+      "path": "books/marketing-dlya-bednykh/index.html",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/books/marketing-dlya-bednykh/",
+      "status": 200,
+      "bytes": 11227,
+      "matches_commit": true,
+      "sha256": "888caf929d12d7a27f85a43d2dc01577c08ac21038be7a957ab212c8243dd2cc"
+    },
+    {
+      "path": "assets/motion.js",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/motion.js",
+      "status": 200,
+      "bytes": 3493,
+      "matches_commit": true,
+      "sha256": "dfb3d976e2141ee0e5fdcafa54ef5fbfbb61141c6eff0995d91ff7cdd4bf3b47"
+    },
+    {
+      "path": "assets/interactions.js",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/interactions.js",
+      "status": 200,
+      "bytes": 4524,
+      "matches_commit": true,
+      "sha256": "5c89b51bc47bc48f82f05539cf41313d00f93f0d0f323cbda91929ed28e70847"
+    },
+    {
+      "path": "assets/site.js",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/site.js",
+      "status": 200,
+      "bytes": 17062,
+      "matches_commit": true,
+      "sha256": "018bded0ad093b928c3702cf758e3e1b890c72588d3e21d5a39fd80c720c0e5c"
+    },
+    {
+      "path": "assets/materia.js",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/materia.js",
+      "status": 200,
+      "bytes": 9150,
+      "matches_commit": true,
+      "sha256": "3dfa111298c9951292fdb6444f43d7f5faf3a210e5353d3c9f876a43d46e836c"
+    },
+    {
+      "path": "assets/search-index.js",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/search-index.js",
+      "status": 200,
+      "bytes": 67580,
+      "matches_commit": true,
+      "sha256": "c66eed18c6157acd0e5c16c35a12c3ccfde0b84be7099b87778bba7453a01554"
+    },
+    {
+      "path": "assets/basic.css",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/basic.css",
+      "status": 200,
+      "bytes": 1239,
+      "matches_commit": true,
+      "sha256": "3cef0f39aa2259d7731850f5ed3641a82d222845e6ec61ecc3d007bd24cb2150"
+    },
+    {
+      "path": "assets/site.css",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/site.css",
+      "status": 200,
+      "bytes": 60624,
+      "matches_commit": true,
+      "sha256": "dc6a2142dcb37b0deddaf3c3bef108beb06ef7b7a03bea85de6e844e5c4c6089"
+    },
+    {
+      "path": "assets/fonts/onest-symbols.woff2",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/fonts/onest-symbols.woff2",
+      "status": 200,
+      "bytes": 18168,
+      "matches_commit": true,
+      "sha256": "2ec2d45d2ec0770e2c18cba2dba5126cf2dcff181d23ad192e9fffeb4af4b0b6"
+    },
+    {
+      "path": "assets/fonts/onest-cyrillic.woff2",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/fonts/onest-cyrillic.woff2",
+      "status": 200,
+      "bytes": 15860,
+      "matches_commit": true,
+      "sha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27"
+    },
+    {
+      "path": "assets/fonts/cormorant-cyrillic.woff2",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/fonts/cormorant-cyrillic.woff2",
+      "status": 200,
+      "bytes": 21300,
+      "matches_commit": true,
+      "sha256": "cb13c04533ee98c94e49a053b9f4d39bf616fd7ba6360d71aead92a78dc571f7"
+    },
+    {
+      "path": "assets/fonts/cormorant-latin.woff2",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/fonts/cormorant-latin.woff2",
+      "status": 200,
+      "bytes": 39260,
+      "matches_commit": true,
+      "sha256": "6f2f5c3b1abc3d0bb035a927f66a90ca873f94fc31c4966c8d024142c2036e55"
+    },
+    {
+      "path": "assets/fonts/onest-latin.woff2",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/fonts/onest-latin.woff2",
+      "status": 200,
+      "bytes": 33760,
+      "matches_commit": true,
+      "sha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828"
+    },
+    {
+      "path": "assets/materia.frag",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/assets/materia.frag",
+      "status": 200,
+      "bytes": 5021,
+      "matches_commit": true,
+      "sha256": "71cc0b3a37f18edc7c70ca46971afddffa8433c6f8062669a12a05c6e195e06f"
+    },
+    {
+      "path": "robots.txt",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/robots.txt",
+      "status": 200,
+      "bytes": 98,
+      "matches_commit": true,
+      "sha256": "2fe0ea073b6613e1293ab02593d897a4b3c28e4672b4de5bd0c0490d6d541dcf"
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/sitemap.xml",
+      "status": 200,
+      "bytes": 3934,
+      "matches_commit": true,
+      "sha256": "acbcc22dbfd1a2105fb9fed5788672be54b558a820579a22d2c89c1659cb02ac"
+    },
+    {
+      "path": "favicon.svg",
+      "url": "https://oprimeroman-art.github.io/bygagarin-portfolio/favicon.svg",
+      "status": 200,
+      "bytes": 326,
+      "matches_commit": true,
+      "sha256": "24cc1fa02555ca477757c951bf7e112c73706d70ed502bca31772da2720fb067"
+    }
+  ],
+  "missing_page": {
+    "status": 404,
+    "custom_404": true
+  },
+  "image_checks": [
+    {
+      "path": "assets/images/showcase-all-indie.webp",
+      "status": 200,
+      "bytes": 11952,
+      "matches_size": true
+    },
+    {
+      "path": "assets/images/showcase-menyala.webp",
+      "status": 200,
+      "bytes": 91906,
+      "matches_size": true
+    },
+    {
+      "path": "assets/images/saratov-embankment.webp",
+      "status": 200,
+      "bytes": 474268,
+      "matches_size": true
+    },
+    {
+      "path": "assets/images/showcase-sng-games.webp",
+      "status": 200,
+      "bytes": 46480,
+      "matches_size": true
+    },
+    {
+      "path": "assets/images/saratov-bridge.webp",
+      "status": 200,
+      "bytes": 246302,
+      "matches_size": true
+    },
+    {
+      "path": "assets/images/showcase-posle.webp",
+      "status": 200,
+      "bytes": 53144,
+      "matches_size": true
+    },
+    {
+      "path": "assets/images/showcase-hlop.webp",
+      "status": 200,
+      "bytes": 42394,
+      "matches_size": true
+    },
+    {
+      "path": "assets/images/roman-portrait.webp",
+      "status": 200,
+      "bytes": 41328,
+      "matches_size": true
+    },
+    {
+      "path": "assets/images/roman-portrait.jpg",
+      "status": 200,
+      "bytes": 46294,
+      "matches_size": true
+    },
+    {
+      "path": "assets/images/materia-cover.webp",
+      "status": 200,
+      "bytes": 75252,
+      "matches_size": true
+    },
+    {
+      "path": "assets/images/volga-dusk.webp",
+      "status": 200,
+      "bytes": 5954,
+      "matches_size": true
+    }
+  ],
+  "browser_checks": {
+    "public_search_to_forge": true,
+    "public_mobile_menu": true,
+    "application_errors": [],
+    "screenshots": 14,
+    "physical_devices_tested": false,
+    "webgl_in_browser_available": false
+  }
+}
