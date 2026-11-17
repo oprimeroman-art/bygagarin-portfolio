@@ -7,3 +7,6 @@
 .matter-word[data-matter-tone="light"] .matter-canvas{filter:brightness(1.16) saturate(.78)}
 @media(prefers-reduced-motion:reduce){.matter-word .matter-canvas{display:none!important}.matter-word .matter-fallback{color:inherit!important}}
 @media print{.matter-word .matter-canvas{display:none!important}.matter-word .matter-fallback{color:inherit!important}}
+
+/* Keep the material readable against ivory: dark chrome, pale highlights only. */
+.matter-word[data-matter-tone="dark"] .matter-canvas{filter:brightness(.51) saturate(.84) contrast(1.25)}
