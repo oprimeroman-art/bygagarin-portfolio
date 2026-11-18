@@ -192,11 +192,26 @@
     if (count) count.textContent='НАЙДЕНО: '+visible;
   });});
 
-  var brief=$('#brief-form'),panel=$('#brief-result-panel'),output=$('#brief-output'),copy=$('#copy-brief'),emailLink=$('#send-brief-email');
-  function briefText() {var value=function(id) {return $("#"+id).value.trim() || "Не указано";};return ["ЗАДАЧА ДЛЯ BYGAGARIN","","Направление: "+value("brief-type"),"","Что происходит:",value("brief-desc"),"","Какой результат нужен:",value("brief-result")].join(String.fromCharCode(10));}
+  var brief=$('#brief-form'),panel=$('#brief-result-panel'),output=$('#brief-output'),copy=$('#copy-brief');
+  function briefText() {var value=function(id) {return $("#"+id).value.trim() || "Не указано";};return ["ЗАДАЧА ДЛЯ BYGAGARIN","","Направление: "+value("brief-type"),"","Что происходит:",value("brief-desc"),"","Какой результат нужен:",value("brief-result"),"","Связаться: "+value("brief-contact")].join(String.fromCharCode(10));}
   if (brief) {
     $('#brief-desc').maxLength=4000;$('#brief-result').maxLength=1000;
-    brief.addEventListener('submit',function (event) {event.preventDefault();if (!$('#brief-consent').checked) {$('#brief-consent').focus();return;}output.textContent=briefText();if(emailLink)emailLink.href='mailto:gagarinfoto64@yandex.ru?subject='+encodeURIComponent('Заявка с сайта byGagarin')+'&body='+encodeURIComponent(output.textContent);panel.hidden=false;panel.focus();});
+    brief.addEventListener('submit',async function (event) {
+      event.preventDefault();
+      if (!brief.reportValidity()) return;
+      var send=$('#make-brief'),status=$('#brief-status');
+      if (send.disabled) return;
+      send.disabled=true;send.setAttribute('aria-busy','true');status.textContent="Отправляем…";
+      try {
+        var endpoint=location.hostname==='oprimeroman-art.github.io'?'https://gagarin.all-indi.ru/api/brief.php':ROOT+'api/brief.php';
+        var response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:$('#brief-type').value,description:$('#brief-desc').value,result:$('#brief-result').value,contact:$('#brief-contact').value,consent:$('#brief-consent').checked,website:$('#brief-website').value,lang:"ru"})});
+        var data=await response.json();
+        if (!response.ok || !data.ok) throw new Error(data.error==='rate_limit'?"Слишком много заявок. Попробуйте чуть позже.":"Не удалось подтвердить отправку. Текст остался в форме. Попробуйте ещё раз или напишите в Telegram.");
+        output.textContent=briefText();panel.hidden=false;panel.focus();status.textContent='';
+      } catch (error) {
+        status.textContent=error.message==="Слишком много заявок. Попробуйте чуть позже."?"Слишком много заявок. Попробуйте чуть позже.":"Не удалось подтвердить отправку. Текст остался в форме. Попробуйте ещё раз или напишите в Telegram.";
+      } finally {send.disabled=false;send.removeAttribute('aria-busy');}
+    });
     $('#close-brief').addEventListener('click',function () {panel.hidden=true;$('#make-brief').focus();});
     copy.setAttribute('aria-live','polite');
     copy.addEventListener('click',function () {

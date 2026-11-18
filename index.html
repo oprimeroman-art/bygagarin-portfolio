@@ -237,21 +237,22 @@
 <option value="Запуск продукта или сайта">Запуск продукта или сайта</option>
 <option value="Автоматизация и процессы">Автоматизация и процессы</option>
 <option value="Развитие продукта">Развитие продукта</option>
-<option value="Нестандартная задача">Нестандартная задача</option></select></label><label>ЧТО СЕЙЧАС НЕ РАБОТАЕТ?<textarea id="brief-desc" rows="4" placeholder="Расскажи обычными словами"></textarea></label><label>КАКОЙ РЕЗУЛЬТАТ НУЖЕН?<input id="brief-result" type="text" placeholder="Чего хочешь добиться?"></label><div class="brief-action">
-<button type="submit" id="make-brief">СОБРАТЬ БРИФ <span>↗</span></button><a href="https://t.me/gagarin64ru" target="_blank" rel="noopener noreferrer">НАПИСАТЬ В TELEGRAM ↗</a>
+<option value="Нестандартная задача">Нестандартная задача</option></select></label><label>ЧТО СЕЙЧАС НЕ РАБОТАЕТ?<textarea id="brief-desc" required maxlength="4000" rows="4" placeholder="Расскажи обычными словами"></textarea></label><label>КАКОЙ РЕЗУЛЬТАТ НУЖЕН?<input id="brief-result" type="text" placeholder="Чего хочешь добиться?"></label><label>КАК С ВАМИ СВЯЗАТЬСЯ?<input id="brief-contact" type="text" placeholder="Почта, Telegram или телефон" maxlength="200" autocomplete="email" required></label><input id="brief-website" type="text" tabindex="-1" autocomplete="off" hidden><div class="brief-action">
+<button type="submit" id="make-brief">ОТПРАВИТЬ ЗАЯВКУ</button><a href="https://t.me/gagarin64ru" target="_blank" rel="noopener noreferrer">НАПИСАТЬ В TELEGRAM ↗</a>
 </div>
 <div class="brief-consent">
 <label class="brief-consent-label" for="brief-consent"><input type="checkbox" id="brief-consent" name="brief-consent" value="yes" required><span>Даю отдельное согласие на обработку персональных данных для ответа на обращение и подготовки предложения.</span></label>
 <p class="brief-consent-links"><a href="/bygagarin-portfolio/consent/" target="_blank" rel="noopener noreferrer">Текст отдельного согласия</a><span>·</span><a href="/bygagarin-portfolio/privacy/" target="_blank" rel="noopener noreferrer">Политика обработки данных</a></p>
-<p class="brief-consent-note">Сайт ничего не отправляет автоматически.</p>
+<p class="brief-consent-note">По кнопке заявка отправится Роману на почту.</p>
 </div>
+<p id="brief-status" role="status" aria-live="polite"></p>
 </form>
 <div id="brief-result-panel" class="brief-result-panel" hidden role="region" aria-label="Готовое описание задачи" tabindex="-1">
 <div class="brief-result-head">
-<span>ТВОЙ БРИФ ГОТОВ</span><button id="close-brief" type="button" aria-label="Закрыть готовое описание задачи">×</button>
+<span>ЗАЯВКА ОТПРАВЛЕНА</span><button id="close-brief" type="button" aria-label="Закрыть готовое описание задачи">×</button>
 </div>
 <pre id="brief-output"></pre>
-<div class="brief-result-actions"><a id="send-brief-email" href="mailto:gagarinfoto64@yandex.ru">ОТПРАВИТЬ ПО ПОЧТЕ ↗</a><button id="copy-brief" type="button">СКОПИРОВАТЬ БРИФ ↗</button><a href="https://t.me/gagarin64ru" target="_blank" rel="noopener noreferrer">ОТКРЫТЬ TELEGRAM ↗</a></div><small>Почта открывается в вашем почтовом приложении. Для Telegram сначала скопируйте бриф и вставьте в чат. Сайт не отправляет данные автоматически.</small>
+<div class="brief-result-actions"><button id="copy-brief" type="button">СКОПИРОВАТЬ БРИФ ↗</button><a href="https://t.me/gagarin64ru" target="_blank" rel="noopener noreferrer">ОТКРЫТЬ TELEGRAM ↗</a></div><small>Спасибо. Роман ответит по указанным вами контактам.</small>
 </div>
 </div>
 </div></section>
@@ -262,7 +263,7 @@
 <div><b>СВЯЗЬ</b><a href="mailto:gagarinfoto64@yandex.ru">gagarinfoto64@yandex.ru</a><a href="https://t.me/gagarin64ru" target="_blank" rel="noopener noreferrer">Telegram · @gagarin64ru</a></div>
 <div><b>ДОКУМЕНТЫ</b><a href="/bygagarin-portfolio/privacy/">Политика обработки данных</a><a href="/bygagarin-portfolio/consent/">Согласие на обработку данных</a></div>
 </div></div>
-<div class="foot-bottom"><span>© byGagarin</span><button type="button" data-motion-toggle aria-pressed="false" class="motion-toggle">УБРАТЬ ДВИЖЕНИЕ</button><a href="#top">Наверх ↑</a></div></footer><script defer src="/bygagarin-portfolio/assets/motion.js?v=20261117-final"></script><script defer src="/bygagarin-portfolio/assets/search-index.js?v=20261117-final"></script><script defer src="/bygagarin-portfolio/assets/site.js?v=brief-clean-20261119"></script><script defer src="/bygagarin-portfolio/assets/interactions.js?v=20261117-final"></script><script defer src="/bygagarin-portfolio/assets/materia.js?v=20261117-final"></script>
+<div class="foot-bottom"><span>© byGagarin</span><button type="button" data-motion-toggle aria-pressed="false" class="motion-toggle">УБРАТЬ ДВИЖЕНИЕ</button><a href="#top">Наверх ↑</a></div></footer><script defer src="/bygagarin-portfolio/assets/motion.js?v=20261117-final"></script><script defer src="/bygagarin-portfolio/assets/search-index.js?v=20261117-final"></script><script defer src="/bygagarin-portfolio/assets/site.js?v=direct-send-20261119-1"></script><script defer src="/bygagarin-portfolio/assets/interactions.js?v=20261117-final"></script><script defer src="/bygagarin-portfolio/assets/materia.js?v=20261117-final"></script>
 <script defer src="/bygagarin-portfolio/assets/experiments.js?v=20261118-portrait-lab"></script>
 <script defer src="/bygagarin-portfolio/assets/space.js?v=20261118-1"></script>
 </body>
