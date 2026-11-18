@@ -1,0 +1,7 @@
+/* Pixel portrait: fixed intrinsic sizes and a separately versioned stylesheet. */
+.brand-avatar{display:inline-block;object-fit:contain;image-rendering:pixelated;flex:none;background:transparent;vertical-align:middle}
+.dock-logo{display:flex;align-items:center;justify-content:center;width:44px;height:44px;letter-spacing:0}
+.dock-logo .brand-avatar{max-width:40px;max-height:40px;filter:invert(1);mix-blend-mode:screen}
+.mast-brand{display:inline-flex;align-items:center;gap:10px;white-space:nowrap;line-height:1}
+.mast-brand .brand-avatar{max-width:28px;max-height:28px;mix-blend-mode:multiply}
+.foot-logo .brand-avatar{max-width:32px;max-height:32px;margin-right:12px;mix-blend-mode:multiply}
