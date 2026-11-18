@@ -192,15 +192,15 @@
     if (count) count.textContent='НАЙДЕНО: '+visible;
   });});
 
-  var brief=$('#brief-form'),panel=$('#brief-result-panel'),output=$('#brief-output'),copy=$('#copy-brief');
-  function briefText() {var value=function (id) {return $('#'+id).value.trim() || 'Не указано';};return 'ЗАДАЧА ДЛЯ BYGAGARIN\n\nНаправление: '+value('brief-type')+'\n\nЧто происходит:\n'+value('brief-desc')+'\n\nКакой результат нужен:\n'+value('brief-result');}
+  var brief=$('#brief-form'),panel=$('#brief-result-panel'),output=$('#brief-output'),copy=$('#copy-brief'),emailLink=$('#send-brief-email');
+  function briefText() {var value=function(id) {return $("#"+id).value.trim() || "Не указано";};return ["ЗАДАЧА ДЛЯ BYGAGARIN","","Направление: "+value("brief-type"),"","Что происходит:",value("brief-desc"),"","Какой результат нужен:",value("brief-result")].join(String.fromCharCode(10));}
   if (brief) {
     $('#brief-desc').maxLength=4000;$('#brief-result').maxLength=1000;
-    brief.addEventListener('submit',function (event) {event.preventDefault();output.textContent=briefText();panel.hidden=false;panel.focus();});
+    brief.addEventListener('submit',function (event) {event.preventDefault();output.textContent=briefText();if(emailLink)emailLink.href='mailto:gagarinfoto64@yandex.ru?subject='+encodeURIComponent('Заявка с сайта byGagarin')+'&body='+encodeURIComponent(output.textContent);panel.hidden=false;panel.focus();});
     $('#close-brief').addEventListener('click',function () {panel.hidden=true;$('#make-brief').focus();});
     copy.setAttribute('aria-live','polite');
     copy.addEventListener('click',function () {
-      function done() {copy.textContent='СКОПИРОВАНО';setTimeout(function () {copy.textContent='СКОПИРОВАТЬ ТЕКСТ ↗';},2200);}
+      function done() {copy.textContent='СКОПИРОВАНО';setTimeout(function () {copy.textContent='СКОПИРОВАТЬ БРИФ ↗';},2200);}
       function fallback() {var area=doc.createElement('textarea');area.value=output.textContent;panel.appendChild(area);area.select();var ok=doc.execCommand('copy');area.remove();if (ok) done();else copy.textContent='ВЫДЕЛИ И СКОПИРУЙ ТЕКСТ ВЫШЕ';}
       if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(output.textContent).then(done,fallback);else fallback();
     });

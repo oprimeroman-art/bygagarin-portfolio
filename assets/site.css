@@ -259,3 +259,26 @@ body{background:var(--sng-canvas)}
 /* Preserve the full composition of _DSC9085.JPG in each author portrait. */
 .portrait-ticket img,.bio-portrait img,.portrait-signature img{height:auto;object-fit:contain;object-position:center;filter:none}
 }
+
+/* Business-ready product highlight: editorial layout without enclosing cards. */
+.product-spotlight{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(270px,.95fr);align-items:end;gap:clamp(24px,5vw,86px);padding:clamp(54px,8vw,108px) clamp(24px,6vw,108px);background:#eef0e9;color:#16261d}
+.product-spotlight-kicker{display:block;font-size:11px;font-weight:750;letter-spacing:.14em;color:#17654b;margin-bottom:25px}
+.product-spotlight h2{font:800 clamp(44px,5.9vw,103px)/.98 var(--sans);letter-spacing:-.085em;margin:0;overflow-wrap:anywhere}
+.product-spotlight h2 i{font-family:var(--serif);font-style:italic;font-weight:500;letter-spacing:-.06em;color:#17654b}
+.product-spotlight-detail p{font-size:clamp(15px,1.5vw,19px);line-height:1.62;max-width:590px;margin:0 0 28px}
+.product-spotlight-links{display:flex;flex-wrap:wrap;gap:12px 26px}
+.product-spotlight-links a{color:#17654b;font-size:11px;letter-spacing:.06em;font-weight:800;text-decoration:none;border-bottom:1px solid #17654b66;padding-bottom:7px}
+.product-spotlight-links a:hover{text-decoration:underline}
+.brief-result-actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px}
+.brief-result-actions>a{font-size:11px;font-weight:800;color:#17654b;letter-spacing:.02em;text-underline-offset:4px}
+.brief-result-actions button{flex:0 1 auto}
+.site-foot .foot-linkcols{gap:clamp(28px,5vw,80px);flex-wrap:wrap}
+.site-foot .foot-linkcols a{overflow-wrap:anywhere}
+.site-foot .foot-bottom{align-items:center;flex-wrap:wrap}
+@media(max-width:800px){.product-spotlight{grid-template-columns:1fr}.product-spotlight h2{font-size:clamp(43px,9vw,86px)}}
+@media(max-width:480px){.site-foot .foot-linkcols{gap:30px}.site-foot .foot-linkcols>div{min-width:0}.product-spotlight{padding:44px 21px 52px}.product-spotlight-links{display:grid;justify-items:start}}
+
+/* The footer is a contact point, not a second sitemap. */
+.site-foot{padding-top:clamp(36px,4vw,58px)}
+.site-foot .foot-top{gap:clamp(20px,4vw,60px)}
+.site-foot .foot-bottom{margin-top:clamp(28px,4vw,44px)}
