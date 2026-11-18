@@ -311,3 +311,6 @@ body{background:var(--sng-canvas)}
   .bio-sticky,.timeline-index{max-height:none!important;overflow:visible!important;height:auto;scrollbar-width:none}
   .bio-sticky{padding-right:0}
 }
+
+/* Author-supplied pixel portrait: shared by all byGagarin brand icons. */
+.brand-avatar{display:block;object-fit:contain;image-rendering:pixelated;background:#fff;flex:none}.dock-logo .brand-avatar{width:44px;height:44px}.mast-brand{display:inline-flex;align-items:center;gap:10px}.mast-brand .brand-avatar{width:30px;height:30px}.foot-logo .brand-avatar{display:inline-block;vertical-align:middle;width:44px;height:44px;margin-right:14px}
