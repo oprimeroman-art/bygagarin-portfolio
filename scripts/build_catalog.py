@@ -15,7 +15,7 @@ VOID={'area','base','br','col','embed','hr','img','input','link','meta','param',
 ALLOWED={'p','ul','ol','li','h1','h2','h3','h4','strong','b','em','i','a','dl','dt','dd','blockquote','br'}
 
 def slug(path):return path.replace('/index.html','').replace('index.html','home').replace('/','--')
-paths=sorted(p for p in ROOT.rglob('*.html') if not any(part.startswith('.') or part in ('dist','versions') for part in p.relative_to(ROOT).parts) and str(p.relative_to(ROOT)) not in EXCLUDE)
+paths=sorted(p for p in ROOT.rglob('*.html') if not any(part.startswith('.') or part in ('dist','versions') for part in p.relative_to(ROOT).parts) and 'en' not in p.relative_to(ROOT).parts and 'en' not in p.relative_to(ROOT).parts and str(p.relative_to(ROOT)) not in EXCLUDE)
 urls={PREFIX+str(p.relative_to(ROOT)).replace('index.html',''):slug(str(p.relative_to(ROOT))) for p in paths}
 
 class Content(HTMLParser):
