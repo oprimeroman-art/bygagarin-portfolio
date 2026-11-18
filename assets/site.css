@@ -282,3 +282,24 @@ body{background:var(--sng-canvas)}
 .site-foot{padding-top:clamp(36px,4vw,58px)}
 .site-foot .foot-top{gap:clamp(20px,4vw,60px)}
 .site-foot .foot-bottom{margin-top:clamp(28px,4vw,44px)}
+
+/* Legal documents and a separate, unchecked personal-data consent. */
+.brief-consent{display:grid;gap:7px;margin-top:-3px}
+.brief-consent-label{display:grid!important;grid-template-columns:18px minmax(0,1fr);gap:11px;align-items:start;cursor:pointer;font-size:12px!important;font-weight:500!important;letter-spacing:0!important;line-height:1.65;color:#435247}
+.brief-consent-label input[type="checkbox"]{display:block;width:17px;height:17px;margin:2px 0 0;padding:0;border:1px solid #78917f;accent-color:#17654b;appearance:auto}
+.brief-consent-links,.brief-consent-note{margin:0 0 0 29px;font-size:10px;line-height:1.6;color:#68776d;letter-spacing:0}
+.brief-consent-links{display:flex;flex-wrap:wrap;gap:7px}
+.brief-consent-links a{border-bottom:1px solid #899586;color:#17654b}
+.legal-document{max-width:960px;margin:0 auto;color:#26352c;font-size:14px;line-height:1.85}
+.legal-document h2{margin:48px 0 15px;font:800 clamp(23px,2.5vw,32px)/1.12 var(--sans);letter-spacing:-.045em;color:#172320}
+.legal-document h2:first-of-type{margin-top:24px}
+.legal-document p{max-width:900px;margin:0 0 17px;color:#46574b;font-size:14px;line-height:1.85}
+.legal-document ul{max-width:900px;margin:0 0 22px;padding-left:22px;color:#46574b}
+.legal-document li{padding-left:5px;margin:0 0 9px;font-size:14px;line-height:1.8}
+.legal-document a{color:#17654b;border-bottom:1px solid #a8bcae;overflow-wrap:anywhere}
+.legal-document a:hover{border-color:#17654b}
+.legal-document strong{color:#20382b}
+.legal-document code{font-size:.9em;background:#e2e9e1;padding:2px 5px}
+.legal-updated{font-size:11px!important;letter-spacing:.08em;text-transform:uppercase;color:#718076!important}
+.foot-linkcols{flex-wrap:wrap}
+@media(max-width:680px){.legal-document{font-size:13px}.legal-document h2{margin-top:36px}.legal-document p,.legal-document li{font-size:13px}.brief-consent-note,.brief-consent-links{margin-left:0}.brief-consent-label{grid-template-columns:18px minmax(0,1fr)}}
