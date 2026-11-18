@@ -68,15 +68,15 @@
 </div></header><div class="inner-body"><div class="casefile">
 <aside class="casefile-aside"><span>ПРОЕКТ / 12</span><p><b>НАПРАВЛЕНИЕ:</b> Панорамы · Производственный инструмент</p>
 <a href="/bygagarin-portfolio/projects/">← ВЕСЬ КАТАЛОГ</a><nav class="case-contents" aria-label="На этой странице"><a href="#section-1">Назначение</a><a href="#section-2">Связь с «Тихой водой»</a><a href="#section-3">Роль и происхождение кода</a><a href="#section-4">Проверенный объём</a></nav></aside><article class="casefile-sections"><section class="panel" id="section-1"><h2>Назначение</h2>
-<p>Инструмент для подготовки панорам. Проверяет пропорции 2:1, меняет разрешение и обрабатывает шов изображения. Написан на Python с Pillow и NumPy; для увеличения можно подключить Real-ESRGAN.</p>
+<p>Forge появился у меня из конкретной проблемы: обычные 360°-панорамы ограничивали качество сцен. Сделал инструмент, который проверяет пропорции 2:1, меняет разрешение и работает со швом изображения. Основа — Python, Pillow и NumPy; для увеличения можно подключить Real-ESRGAN.</p>
 <div class="source-links"><a href="https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/codex-scripts/panorama_forge_engine.py" rel="noopener noreferrer" target="_blank">Публичное ядро Panorama Forge</a></div></section><section class="panel" id="section-2"><h2>Связь с «Тихой водой»</h2>
-<p>Документация от 1 ноября 2026 года описывает интеграцию ядра Forge 0.1 в конвейер игры: обработанное изображение разбивается на фрагменты для панорамной сцены. Это часть производственного инструментария проекта.</p>
+<p>1 ноября 2026 года я описал, как встроил ядро Forge 0.1 в производство «Тихой воды»: после обработки панорама разбивается на фрагменты и собирается в игровой сцене.</p>
 <div class="source-links"><a href="https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/docs/features/PANORAMA_DETAIL_TILES.md" rel="noopener noreferrer" target="_blank">Документация интеграции · 01.11.2026</a></div></section><section class="panel" id="section-3"><h2>Роль и происхождение кода</h2>
-<p>Я определяю, что нужно игре и как должен работать инструмент. Программную часть, сборку и проверки делаем вместе с Codex. Происхождение материалов описано в README игры.</p>
+<p>Я задаю требования к инструменту и решаю, что нужно игре. Код, сборку и проверки делаю вместе с Codex. Исходники и историю материалов оставил в README «Тихой воды».</p>
 <div class="source-links">
 <a href="https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/README.md" rel="noopener noreferrer" target="_blank">README игры ↗</a><a href="https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/codex-scripts/panorama_forge_engine.py" rel="noopener noreferrer" target="_blank">Исходный код</a>
 </div></section><section class="panel" id="section-4"><h2>Проверенный объём</h2>
-<p>Пока это ядро и набор скриптов внутри «Тихой воды». Масштабирование и сборка фрагментов проверялись локально. GPU-обработка и полное прохождение в 8K ещё не проверены; отдельного дистрибутива нет.</p>
+<p>Пока Forge — ядро и набор скриптов внутри «Тихой воды». Масштабирование и сборку фрагментов уже пробовали локально. Полную обработку 8K на GPU ещё не прогнал; отдельного установщика пока нет.</p>
 <div class="source-links"><a href="https://github.com/oprimeroman-art/Tihaya-Voda/blob/main/docs/features/PANORAMA_DETAIL_TILES.md" rel="noopener noreferrer" target="_blank">Документация: ограничения и проверка</a></div></section></article>
 </div></div></main><footer class="site-foot"><div class="foot-top">
 <div><a class="foot-logo" href="/bygagarin-portfolio/">GAGARIN<span>°</span></a><p>Роман Гагарин · маркетинг, разработка и собственные продукты.<br>Саратов · проекты по России удалённо.</p></div>
