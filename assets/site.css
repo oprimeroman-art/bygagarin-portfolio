@@ -303,3 +303,11 @@ body{background:var(--sng-canvas)}
 .legal-updated{font-size:11px!important;letter-spacing:.08em;text-transform:uppercase;color:#718076!important}
 .foot-linkcols{flex-wrap:wrap}
 @media(max-width:680px){.legal-document{font-size:13px}.legal-document h2{margin-top:36px}.legal-document p,.legal-document li{font-size:13px}.brief-consent-note,.brief-consent-links{margin-left:0}.brief-consent-label{grid-template-columns:18px minmax(0,1fr)}}
+
+/* Calculator library link and biography single-scroll layout on small screens. */
+.calc-suite-link{margin-top:22px;line-height:1.7}
+.calc-suite-link a{border-bottom:1px solid currentColor;color:#17654b;font-weight:750}
+@media(max-width:960px){
+  .bio-sticky,.timeline-index{max-height:none!important;overflow:visible!important;height:auto;scrollbar-width:none}
+  .bio-sticky{padding-right:0}
+}

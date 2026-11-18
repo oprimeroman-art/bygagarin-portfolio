@@ -157,8 +157,8 @@
 
   var directory=$('#directory-list'),preview=$('#directory-preview');
   if (directory && preview && matchMedia('(hover:hover) and (pointer:fine)').matches && !motion.reduced()) {
-    var images={solutions:['showcase-all-indie.webp','КАК РЕШАЮ ЗАДАЧИ'],works:['showcase-sng-games.webp','РАБОТЫ'],bio:['roman-portrait.webp','БИОГРАФИЯ'],lab:['showcase-hlop.webp','ИНСТРУМЕНТЫ'],text:['showcase-posle.webp','КНИГИ И ПУБЛИКАЦИИ']};
-    all('.directory-link',directory).forEach(function (a) {a.addEventListener('pointerenter',function () {var image=images[a.dataset.preview];$('#directory-preview-img').src=ROOT+'assets/images/'+image[0];$('#directory-preview-label').textContent=image[1];preview.classList.add('visible');});});
+    var images={solutions:['showcase-all-indie.webp','КАК РЕШАЮ ЗАДАЧИ'],works:['showcase-sng-games.webp','РАБОТЫ'],bio:['roman-dsc9085.webp','БИОГРАФИЯ'],lab:['showcase-hlop.webp','ИНСТРУМЕНТЫ'],text:['showcase-posle.webp','КНИГИ И ПУБЛИКАЦИИ'],calc:null};
+    all('.directory-link',directory).forEach(function (a) {a.addEventListener('pointerenter',function () {var image=images[a.dataset.preview];if(!image){preview.classList.remove('visible');return;}$('#directory-preview-img').src=ROOT+'assets/images/'+image[0];$('#directory-preview-label').textContent=image[1];preview.classList.add('visible');});});
     directory.addEventListener('pointermove',function (event) {preview.style.left=Math.max(175,Math.min(innerWidth-175,event.clientX+120))+'px';preview.style.top=Math.max(140,Math.min(innerHeight-140,event.clientY+30))+'px';},{passive:true});
     directory.addEventListener('pointerleave',function () {preview.classList.remove('visible');});
   }

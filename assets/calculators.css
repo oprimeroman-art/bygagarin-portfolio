@@ -1,0 +1,51 @@
+/* byGagarin — calculator library; one continuous reading surface, no card grid. */
+.calc-page{color:#172320;background:#f2f3f0;min-height:70vh;padding:clamp(32px,5vw,84px) clamp(22px,5vw,95px) 95px;overflow-wrap:anywhere}
+.calc-page *{box-sizing:border-box}
+.calc-page .calc-top{max-width:1170px;margin:0 auto}
+.calc-page .calc-eyebrow{color:#17654b;font:700 11px/1.4 var(--sans,Arial,sans-serif);letter-spacing:.12em;text-transform:uppercase}
+.calc-page h1{font:800 clamp(45px,7vw,118px)/.95 var(--sans,Arial,sans-serif);letter-spacing:-.07em;margin:25px 0 26px;max-width:1150px}
+.calc-page h1 i{font:italic 400 .92em var(--serif,Georgia,serif);letter-spacing:-.065em;color:#17654b}
+.calc-page .calc-intro{max-width:750px;font-size:clamp(15px,1.3vw,19px);line-height:1.7;color:#526357;margin:0 0 22px}
+.calc-page .calc-note{font-size:12px;color:#657568;line-height:1.7;max-width:720px}
+.calc-page .calc-nav-back{display:inline-block;margin:12px 0 38px;color:#17654b;font-size:12px;font-weight:800;border-bottom:1px solid #17654b}
+.calc-page .calc-index{max-width:1170px;margin:0 auto 34px;padding:20px 0 30px;border-top:1px solid #b4c7b9;border-bottom:1px solid #b4c7b9}
+.calc-page .calc-index strong{font:700 11px var(--sans,Arial,sans-serif);letter-spacing:.12em;color:#466052;display:block;margin-bottom:20px}
+.calc-page .calc-index ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:35px;row-gap:0;margin:0;padding:0;list-style:none;counter-reset:calc}
+.calc-page .calc-index li{min-width:0}
+.calc-page .calc-index a{display:flex;align-items:baseline;gap:13px;padding:10px 0;color:#27362d;font-size:14px;line-height:1.4;border-bottom:1px solid #dbe4dc;text-decoration:none}
+.calc-page .calc-index a:hover,.calc-page .calc-index a:focus-visible{color:#17654b;border-bottom-color:#17654b}
+.calc-page .calc-index .calc-num{font-size:10px;color:#7b8f82;flex:0 0 22px}
+.calc-page .calc-list{max-width:1170px;margin:0 auto}
+.calc-page .calc-card{padding:clamp(36px,4.2vw,66px) 0;border-bottom:1px solid #b4c7b9;scroll-margin-top:90px}
+.calc-page .calc-card:first-child{border-top:0}
+.calc-page .calc-card-header{max-width:1050px;margin:0 0 26px}
+.calc-page .calc-card-number{display:block;font:800 10px var(--sans,Arial,sans-serif);letter-spacing:.12em;color:#17654b;margin-bottom:12px}
+.calc-page .calc-card h2{font:800 clamp(30px,3.5vw,54px)/1.04 var(--sans,Arial,sans-serif);letter-spacing:-.045em;margin:0 0 14px;color:#172320}
+.calc-page .calc-card-description{margin:0 0 13px;font-size:15px;line-height:1.7;color:#526357;max-width:780px}
+.calc-page .calc-formula{margin:0;font:500 12px/1.75 var(--sans,Arial,sans-serif);color:#67766c;max-width:850px}
+.calc-page .calc-fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px 31px;max-width:1000px}
+.calc-page .calc-field{min-width:0}
+.calc-page .calc-field label{display:block;min-height:35px;font-size:12px;line-height:1.45;font-weight:650;color:#3e5044;margin-bottom:8px}
+.calc-page .calc-input-wrap{display:flex;align-items:baseline;border-bottom:1px solid #94ab9b;gap:8px;padding:0 3px 7px;transition:border-color .2s}
+.calc-page .calc-input-wrap:focus-within{border-color:#17654b;border-bottom-width:2px;padding-bottom:6px}
+.calc-page .calc-input-wrap input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:4px 0;color:#172320;font:700 clamp(20px,2.5vw,29px)/1.2 var(--sans,Arial,sans-serif);font-variant-numeric:tabular-nums}
+.calc-page .calc-unit-label{flex-shrink:0;color:#627c6a;font-size:14px;font-weight:650}
+.calc-page .calc-results{margin-top:27px;max-width:1130px}
+.calc-page .calc-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));column-gap:32px;row-gap:24px}
+.calc-page .calc-metric{min-width:0}
+.calc-page .calc-metric-label{display:block;color:#5d7063;font-size:11px;line-height:1.4;min-height:31px;margin-bottom:8px}
+.calc-page .calc-metric-value{font:800 clamp(23px,2.3vw,36px)/1.12 var(--sans,Arial,sans-serif);letter-spacing:-.045em;color:#17654b;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.calc-page .calc-metric-value.negative{color:#af583c}
+.calc-page .calc-metric-value.undefined{color:#869489}
+.calc-page .calc-result-note{font-size:12px;line-height:1.7;color:#657568;margin:23px 0 15px;max-width:930px}
+.calc-page .calc-error{font-size:13px;color:#ae4837;font-weight:650;margin:20px 0}
+.calc-page .calc-actions{display:flex;flex-wrap:wrap;gap:13px;margin-top:13px}
+.calc-page .calc-actions button{background:transparent;border:0;border-bottom:1px solid #17654b;color:#17654b;font:750 11px var(--sans,Arial,sans-serif);cursor:pointer;padding:9px 0;text-transform:uppercase;letter-spacing:.04em}
+.calc-page .calc-actions .calc-reset{color:#66796b;border-bottom-color:#a5b5aa}
+.calc-page .calc-actions button:hover,.calc-page .calc-actions button:focus-visible{color:#10281b;border-bottom-color:#10281b}
+.calc-page .calc-bottom{max-width:1170px;margin:45px auto 0;color:#556759;font-size:13px;line-height:1.7}
+.calc-page .calc-bottom a{color:#17654b;border-bottom:1px solid #17654b}
+@media(max-width:900px){.calc-page .calc-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.calc-page .calc-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.calc-page{padding:33px 21px 70px}.calc-page h1{font-size:clamp(43px,11vw,72px);line-height:1}.calc-page .calc-intro{font-size:14px}.calc-page .calc-index ol{grid-template-columns:1fr}.calc-page .calc-fields{grid-template-columns:1fr 1fr;gap:14px}.calc-page .calc-field label{min-height:0}.calc-page .calc-input-wrap input{font-size:23px}.calc-page .calc-metrics{gap:20px 16px}.calc-page .calc-metric-value{font-size:clamp(21px,6vw,30px)}.calc-page .calc-card{padding:36px 0}.calc-page .calc-card h2{font-size:clamp(29px,8vw,42px)}.calc-page .calc-metric-label{min-height:0}}
+@media(max-width:380px){.calc-page .calc-fields,.calc-page .calc-metrics{grid-template-columns:1fr}.calc-page .calc-field label{margin-bottom:4px}}
+@media print{.calc-page{padding:0;background:#fff}.calc-page .calc-actions,.calc-page .calc-index,.calc-page .calc-nav-back{display:none}.calc-page .calc-card{break-inside:avoid;padding:16px 0}}
